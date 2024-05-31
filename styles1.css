@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
-    background-image: url(image/px.jpg);
+    background-image: url(px.jpg);
 }
 
 .login-container {
@@ -18,7 +18,7 @@ body {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     color: #f4f4f4;
-    background-image: url(image/px.jpg);
+    background-image: url(px.jpg);
 }
 #sign{
     color: #fff;
