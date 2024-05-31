@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Blog</title>
+    <link rel="icon" href="download.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1> My Blog 
+            <button id="btnhead" class="interactive-btn" type="button" onclick="goback()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+              </svg></button>
+
+        </h1>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Engineering</h2>
+            <p class="para">Engineering is a discipline dedicated to problem solving. Our built environment and infrastructure, the devices we use to communicate, the processes that manufacture our medicines, have all been designed, assembled or managed by an engineer.
+
+                You will find engineers working on advanced prosthetics, creating new materials, investigating engine efficiency and alternative fuels, constructing bridges or developing clean water systems. From satellites to cell membranes engineers use maths and science to achieve extraordinary things and find solutions to some of the world's most complex challenges.</p>
+        </article>
+
+        <section id="comments">
+            <h3>Comments</h3>
+            <ul id="commentList">
+                <!-- Comments will be dynamically added here using JavaScript -->
+            </ul>
+
+            <form id="commentForm">
+                <label for="commentName">Name:</label>
+                <input type="text" id="commentName" required>
+
+                <label for="commentText">Comment:</label>
+                <textarea id="commentText" required></textarea>
+
+                <button id="btnad" class="interactive-btn" type="button">Add Comment</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
