@@ -1,6 +1,8 @@
 # Cross-Site-Scripting-Project
 A Cross-Site Scripting (XSS) simulation project is a practical exercise designed to demonstrate the mechanics and impact of XSS vulnerabilities in web applications. This type of project typically involves creating a controlled environment where various forms of XSS attacks can be safely executed and analyzed. Here's a detailed description of what such a project might entail:
-
+### Note : Login Credentails :
+username ; user
+password ; password
 ### Project Overview
 
 **Objective:**
